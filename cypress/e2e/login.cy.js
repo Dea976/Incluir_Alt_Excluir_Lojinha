@@ -13,7 +13,7 @@ describe("Teste na Lojinha incluir, alterara e excluir produto - iPhone 14 com E
   
 
   //1.Cenário
-  it.only("Login com sucesso", () => {
+  it("Login com sucesso", () => {
     //DADO
     // abrir a aplicacao
     cy.visit('http://165.227.93.41/lojinha-web/v2/', {
@@ -67,7 +67,7 @@ describe("Teste na Lojinha incluir, alterara e excluir produto - iPhone 14 com E
 });
 
   //2.Cenário
-  it(" Incluir Dado invalido", () => {
+  it.only(" Incluir Dado invalido", () => {
      //DADO
     // abrir a aplicacao
     cy.visit('http://165.227.93.41/lojinha-web/v2/', {
