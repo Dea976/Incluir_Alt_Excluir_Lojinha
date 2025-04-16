@@ -103,7 +103,7 @@ describe("Teste na Lojinha incluir, alterara e excluir produto - iPhone 14 com E
   });
 
   //4.Cenário
-  it.only("Alterar dado válido", () => {
+  it("Alterar dado válido", () => {
     //DADO
     // abrir a aplicacao
     cy.visit('http://165.227.93.41/lojinha-web/v2/', {
